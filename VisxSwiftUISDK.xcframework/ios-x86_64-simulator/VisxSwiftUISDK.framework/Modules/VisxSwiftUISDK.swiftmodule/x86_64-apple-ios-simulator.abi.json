@@ -1,0 +1,1658 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VisxSwiftUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VisxSDK",
+        "printedName": "VisxSDK",
+        "declKind": "Import",
+        "moduleName": "VisxSwiftUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "VisxSwiftUISDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VisxEvents",
+        "printedName": "VisxEvents",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "visxAdViewDidInitialize",
+            "printedName": "visxAdViewDidInitialize",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VisxSwiftUISDK.VisxEvents.Type) -> VisxSwiftUISDK.VisxEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisxEvents",
+                    "printedName": "VisxSwiftUISDK.VisxEvents",
+                    "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VisxSwiftUISDK.VisxEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisxEvents",
+                        "printedName": "VisxSwiftUISDK.VisxEvents",
+                        "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14VisxSwiftUISDK0A6EventsO23visxAdViewDidInitializeyA2CmF",
+            "mangledName": "$s14VisxSwiftUISDK0A6EventsO23visxAdViewDidInitializeyA2CmF",
+            "moduleName": "VisxSwiftUISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "visxAdViewSizeChange",
+            "printedName": "visxAdViewSizeChange",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VisxSwiftUISDK.VisxEvents.Type) -> VisxSwiftUISDK.VisxEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisxEvents",
+                    "printedName": "VisxSwiftUISDK.VisxEvents",
+                    "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VisxSwiftUISDK.VisxEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisxEvents",
+                        "printedName": "VisxSwiftUISDK.VisxEvents",
+                        "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14VisxSwiftUISDK0A6EventsO20visxAdViewSizeChangeyA2CmF",
+            "mangledName": "$s14VisxSwiftUISDK0A6EventsO20visxAdViewSizeChangeyA2CmF",
+            "moduleName": "VisxSwiftUISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "visxAdViewEffectChange",
+            "printedName": "visxAdViewEffectChange",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VisxSwiftUISDK.VisxEvents.Type) -> VisxSwiftUISDK.VisxEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisxEvents",
+                    "printedName": "VisxSwiftUISDK.VisxEvents",
+                    "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VisxSwiftUISDK.VisxEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisxEvents",
+                        "printedName": "VisxSwiftUISDK.VisxEvents",
+                        "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14VisxSwiftUISDK0A6EventsO22visxAdViewEffectChangeyA2CmF",
+            "mangledName": "$s14VisxSwiftUISDK0A6EventsO22visxAdViewEffectChangeyA2CmF",
+            "moduleName": "VisxSwiftUISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "visxLandingPageOpened",
+            "printedName": "visxLandingPageOpened",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VisxSwiftUISDK.VisxEvents.Type) -> VisxSwiftUISDK.VisxEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisxEvents",
+                    "printedName": "VisxSwiftUISDK.VisxEvents",
+                    "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VisxSwiftUISDK.VisxEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisxEvents",
+                        "printedName": "VisxSwiftUISDK.VisxEvents",
+                        "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14VisxSwiftUISDK0A6EventsO21visxLandingPageOpenedyA2CmF",
+            "mangledName": "$s14VisxSwiftUISDK0A6EventsO21visxLandingPageOpenedyA2CmF",
+            "moduleName": "VisxSwiftUISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "visxAdViewClosed",
+            "printedName": "visxAdViewClosed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VisxSwiftUISDK.VisxEvents.Type) -> VisxSwiftUISDK.VisxEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisxEvents",
+                    "printedName": "VisxSwiftUISDK.VisxEvents",
+                    "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VisxSwiftUISDK.VisxEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisxEvents",
+                        "printedName": "VisxSwiftUISDK.VisxEvents",
+                        "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14VisxSwiftUISDK0A6EventsO16visxAdViewClosedyA2CmF",
+            "mangledName": "$s14VisxSwiftUISDK0A6EventsO16visxAdViewClosedyA2CmF",
+            "moduleName": "VisxSwiftUISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "visxAdViewClicked",
+            "printedName": "visxAdViewClicked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VisxSwiftUISDK.VisxEvents.Type) -> VisxSwiftUISDK.VisxEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisxEvents",
+                    "printedName": "VisxSwiftUISDK.VisxEvents",
+                    "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VisxSwiftUISDK.VisxEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisxEvents",
+                        "printedName": "VisxSwiftUISDK.VisxEvents",
+                        "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14VisxSwiftUISDK0A6EventsO17visxAdViewClickedyA2CmF",
+            "mangledName": "$s14VisxSwiftUISDK0A6EventsO17visxAdViewClickedyA2CmF",
+            "moduleName": "VisxSwiftUISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "visxAdVideoFinished",
+            "printedName": "visxAdVideoFinished",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VisxSwiftUISDK.VisxEvents.Type) -> VisxSwiftUISDK.VisxEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisxEvents",
+                    "printedName": "VisxSwiftUISDK.VisxEvents",
+                    "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VisxSwiftUISDK.VisxEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisxEvents",
+                        "printedName": "VisxSwiftUISDK.VisxEvents",
+                        "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14VisxSwiftUISDK0A6EventsO19visxAdVideoFinishedyA2CmF",
+            "mangledName": "$s14VisxSwiftUISDK0A6EventsO19visxAdVideoFinishedyA2CmF",
+            "moduleName": "VisxSwiftUISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "visxAdRequestStarted",
+            "printedName": "visxAdRequestStarted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VisxSwiftUISDK.VisxEvents.Type) -> VisxSwiftUISDK.VisxEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisxEvents",
+                    "printedName": "VisxSwiftUISDK.VisxEvents",
+                    "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VisxSwiftUISDK.VisxEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisxEvents",
+                        "printedName": "VisxSwiftUISDK.VisxEvents",
+                        "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14VisxSwiftUISDK0A6EventsO20visxAdRequestStartedyA2CmF",
+            "mangledName": "$s14VisxSwiftUISDK0A6EventsO20visxAdRequestStartedyA2CmF",
+            "moduleName": "VisxSwiftUISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "visxAdInterstitialClosed",
+            "printedName": "visxAdInterstitialClosed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VisxSwiftUISDK.VisxEvents.Type) -> VisxSwiftUISDK.VisxEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisxEvents",
+                    "printedName": "VisxSwiftUISDK.VisxEvents",
+                    "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VisxSwiftUISDK.VisxEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisxEvents",
+                        "printedName": "VisxSwiftUISDK.VisxEvents",
+                        "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14VisxSwiftUISDK0A6EventsO24visxAdInterstitialClosedyA2CmF",
+            "mangledName": "$s14VisxSwiftUISDK0A6EventsO24visxAdInterstitialClosedyA2CmF",
+            "moduleName": "VisxSwiftUISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "visxAdInterstitialWillBeClosed",
+            "printedName": "visxAdInterstitialWillBeClosed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VisxSwiftUISDK.VisxEvents.Type) -> VisxSwiftUISDK.VisxEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisxEvents",
+                    "printedName": "VisxSwiftUISDK.VisxEvents",
+                    "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VisxSwiftUISDK.VisxEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisxEvents",
+                        "printedName": "VisxSwiftUISDK.VisxEvents",
+                        "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14VisxSwiftUISDK0A6EventsO30visxAdInterstitialWillBeClosedyA2CmF",
+            "mangledName": "$s14VisxSwiftUISDK0A6EventsO30visxAdInterstitialWillBeClosedyA2CmF",
+            "moduleName": "VisxSwiftUISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "visxAdResponseReceived",
+            "printedName": "visxAdResponseReceived",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VisxSwiftUISDK.VisxEvents.Type) -> VisxSwiftUISDK.VisxEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisxEvents",
+                    "printedName": "VisxSwiftUISDK.VisxEvents",
+                    "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VisxSwiftUISDK.VisxEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisxEvents",
+                        "printedName": "VisxSwiftUISDK.VisxEvents",
+                        "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14VisxSwiftUISDK0A6EventsO22visxAdResponseReceivedyA2CmF",
+            "mangledName": "$s14VisxSwiftUISDK0A6EventsO22visxAdResponseReceivedyA2CmF",
+            "moduleName": "VisxSwiftUISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "visxAdFailedWithError",
+            "printedName": "visxAdFailedWithError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VisxSwiftUISDK.VisxEvents.Type) -> VisxSwiftUISDK.VisxEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisxEvents",
+                    "printedName": "VisxSwiftUISDK.VisxEvents",
+                    "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VisxSwiftUISDK.VisxEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisxEvents",
+                        "printedName": "VisxSwiftUISDK.VisxEvents",
+                        "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14VisxSwiftUISDK0A6EventsO21visxAdFailedWithErroryA2CmF",
+            "mangledName": "$s14VisxSwiftUISDK0A6EventsO21visxAdFailedWithErroryA2CmF",
+            "moduleName": "VisxSwiftUISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "appShouldResumeFromAd",
+            "printedName": "appShouldResumeFromAd",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VisxSwiftUISDK.VisxEvents.Type) -> VisxSwiftUISDK.VisxEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisxEvents",
+                    "printedName": "VisxSwiftUISDK.VisxEvents",
+                    "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VisxSwiftUISDK.VisxEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisxEvents",
+                        "printedName": "VisxSwiftUISDK.VisxEvents",
+                        "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14VisxSwiftUISDK0A6EventsO21appShouldResumeFromAdyA2CmF",
+            "mangledName": "$s14VisxSwiftUISDK0A6EventsO21appShouldResumeFromAdyA2CmF",
+            "moduleName": "VisxSwiftUISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "appShouldSuspendForAd",
+            "printedName": "appShouldSuspendForAd",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VisxSwiftUISDK.VisxEvents.Type) -> VisxSwiftUISDK.VisxEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisxEvents",
+                    "printedName": "VisxSwiftUISDK.VisxEvents",
+                    "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VisxSwiftUISDK.VisxEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisxEvents",
+                        "printedName": "VisxSwiftUISDK.VisxEvents",
+                        "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14VisxSwiftUISDK0A6EventsO21appShouldSuspendForAdyA2CmF",
+            "mangledName": "$s14VisxSwiftUISDK0A6EventsO21appShouldSuspendForAdyA2CmF",
+            "moduleName": "VisxSwiftUISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "visxAdViewDeallocated",
+            "printedName": "visxAdViewDeallocated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VisxSwiftUISDK.VisxEvents.Type) -> VisxSwiftUISDK.VisxEvents",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisxEvents",
+                    "printedName": "VisxSwiftUISDK.VisxEvents",
+                    "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VisxSwiftUISDK.VisxEvents.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VisxEvents",
+                        "printedName": "VisxSwiftUISDK.VisxEvents",
+                        "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14VisxSwiftUISDK0A6EventsO21visxAdViewDeallocatedyA2CmF",
+            "mangledName": "$s14VisxSwiftUISDK0A6EventsO21visxAdViewDeallocatedyA2CmF",
+            "moduleName": "VisxSwiftUISDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VisxSwiftUISDK.VisxEvents?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisxEvents",
+                    "printedName": "VisxSwiftUISDK.VisxEvents",
+                    "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14VisxSwiftUISDK0A6EventsO8rawValueACSgSS_tcfc",
+            "mangledName": "$s14VisxSwiftUISDK0A6EventsO8rawValueACSgSS_tcfc",
+            "moduleName": "VisxSwiftUISDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14VisxSwiftUISDK0A6EventsO8rawValueSSvp",
+            "mangledName": "$s14VisxSwiftUISDK0A6EventsO8rawValueSSvp",
+            "moduleName": "VisxSwiftUISDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14VisxSwiftUISDK0A6EventsO8rawValueSSvg",
+                "mangledName": "$s14VisxSwiftUISDK0A6EventsO8rawValueSSvg",
+                "moduleName": "VisxSwiftUISDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14VisxSwiftUISDK0A6EventsO",
+        "mangledName": "$s14VisxSwiftUISDK0A6EventsO",
+        "moduleName": "VisxSwiftUISDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VisxSwiftUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VisxSDK",
+        "printedName": "VisxSDK",
+        "declKind": "Import",
+        "moduleName": "VisxSwiftUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VisxSwiftUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VisxSDK",
+        "printedName": "VisxSDK",
+        "declKind": "Import",
+        "moduleName": "VisxSwiftUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VisxSwiftUISDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VisxView",
+        "printedName": "VisxView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adUnitId:size:fixedSize:anchorFrame:advertisingLabelText:loadWithCustomTargetingParameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VisxView",
+                "printedName": "VisxSwiftUISDK.VisxView",
+                "usr": "s:14VisxSwiftUISDK0A4ViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreFoundation.CGRect?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14VisxSwiftUISDK0A4ViewV8adUnitId4size9fixedSize11anchorFrame20advertisingLabelText33loadWithCustomTargetingParametersACSS_So6CGSizeVSbSgSo6CGRectVSgSSSgSDyS2SGSgtcfc",
+            "mangledName": "$s14VisxSwiftUISDK0A4ViewV8adUnitId4size9fixedSize11anchorFrame20advertisingLabelText33loadWithCustomTargetingParametersACSS_So6CGSizeVSbSgSo6CGRectVSgSSSgSDyS2SGSgtcfc",
+            "moduleName": "VisxSwiftUISDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.ModifiedContent<VisxSwiftUISDK.BannerView, SwiftUI._FrameLayout>>>, SwiftUI._OffsetEffect>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.Rectangle>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.ModifiedContent<VisxSwiftUISDK.BannerView, SwiftUI._FrameLayout>>>, SwiftUI._OffsetEffect>, SwiftUI._BackgroundModifier<SwiftUI.Color>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.ModifiedContent<VisxSwiftUISDK.BannerView, SwiftUI._FrameLayout>>>, SwiftUI._OffsetEffect>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SubscriptionView",
+                            "printedName": "SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.ModifiedContent<VisxSwiftUISDK.BannerView, SwiftUI._FrameLayout>>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Publisher",
+                                "printedName": "Foundation.NotificationCenter.Publisher",
+                                "usr": "s:So20NSNotificationCenterC10FoundationE9PublisherV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SubscriptionView",
+                                "printedName": "SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.ModifiedContent<VisxSwiftUISDK.BannerView, SwiftUI._FrameLayout>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Publisher",
+                                    "printedName": "Foundation.NotificationCenter.Publisher",
+                                    "usr": "s:So20NSNotificationCenterC10FoundationE9PublisherV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ModifiedContent",
+                                    "printedName": "SwiftUI.ModifiedContent<VisxSwiftUISDK.BannerView, SwiftUI._FrameLayout>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "BannerView",
+                                        "printedName": "VisxSwiftUISDK.BannerView",
+                                        "usr": "s:14VisxSwiftUISDK10BannerViewV"
+                                      },
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "_FrameLayout",
+                                        "printedName": "SwiftUI._FrameLayout",
+                                        "usr": "s:7SwiftUI12_FrameLayoutV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI15ModifiedContentV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI16SubscriptionViewV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI16SubscriptionViewV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_OffsetEffect",
+                            "printedName": "SwiftUI._OffsetEffect",
+                            "usr": "s:7SwiftUI13_OffsetEffectV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_BackgroundModifier",
+                        "printedName": "SwiftUI._BackgroundModifier<SwiftUI.Color>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Color",
+                            "printedName": "SwiftUI.Color",
+                            "usr": "s:7SwiftUI5ColorV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI19_BackgroundModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ClipEffect",
+                    "printedName": "SwiftUI._ClipEffect<SwiftUI.Rectangle>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Rectangle",
+                        "printedName": "SwiftUI.Rectangle",
+                        "usr": "s:7SwiftUI9RectangleV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI11_ClipEffectV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14VisxSwiftUISDK0A4ViewV4bodyQrvp",
+            "mangledName": "$s14VisxSwiftUISDK0A4ViewV4bodyQrvp",
+            "moduleName": "VisxSwiftUISDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.ModifiedContent<VisxSwiftUISDK.BannerView, SwiftUI._FrameLayout>>>, SwiftUI._OffsetEffect>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.Rectangle>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.ModifiedContent<VisxSwiftUISDK.BannerView, SwiftUI._FrameLayout>>>, SwiftUI._OffsetEffect>, SwiftUI._BackgroundModifier<SwiftUI.Color>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModifiedContent",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.ModifiedContent<VisxSwiftUISDK.BannerView, SwiftUI._FrameLayout>>>, SwiftUI._OffsetEffect>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SubscriptionView",
+                                "printedName": "SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.ModifiedContent<VisxSwiftUISDK.BannerView, SwiftUI._FrameLayout>>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Publisher",
+                                    "printedName": "Foundation.NotificationCenter.Publisher",
+                                    "usr": "s:So20NSNotificationCenterC10FoundationE9PublisherV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "SubscriptionView",
+                                    "printedName": "SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.ModifiedContent<VisxSwiftUISDK.BannerView, SwiftUI._FrameLayout>>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Publisher",
+                                        "printedName": "Foundation.NotificationCenter.Publisher",
+                                        "usr": "s:So20NSNotificationCenterC10FoundationE9PublisherV"
+                                      },
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "ModifiedContent",
+                                        "printedName": "SwiftUI.ModifiedContent<VisxSwiftUISDK.BannerView, SwiftUI._FrameLayout>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "BannerView",
+                                            "printedName": "VisxSwiftUISDK.BannerView",
+                                            "usr": "s:14VisxSwiftUISDK10BannerViewV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "_FrameLayout",
+                                            "printedName": "SwiftUI._FrameLayout",
+                                            "usr": "s:7SwiftUI12_FrameLayoutV"
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI15ModifiedContentV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI16SubscriptionViewV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI16SubscriptionViewV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_OffsetEffect",
+                                "printedName": "SwiftUI._OffsetEffect",
+                                "usr": "s:7SwiftUI13_OffsetEffectV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI15ModifiedContentV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_BackgroundModifier",
+                            "printedName": "SwiftUI._BackgroundModifier<SwiftUI.Color>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Color",
+                                "printedName": "SwiftUI.Color",
+                                "usr": "s:7SwiftUI5ColorV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI19_BackgroundModifierV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_ClipEffect",
+                        "printedName": "SwiftUI._ClipEffect<SwiftUI.Rectangle>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Rectangle",
+                            "printedName": "SwiftUI.Rectangle",
+                            "usr": "s:7SwiftUI9RectangleV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI11_ClipEffectV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14VisxSwiftUISDK0A4ViewV4bodyQrvg",
+                "mangledName": "$s14VisxSwiftUISDK0A4ViewV4bodyQrvg",
+                "moduleName": "VisxSwiftUISDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "removeVisxAdView",
+            "printedName": "removeVisxAdView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14VisxSwiftUISDK0A4ViewV06removea2AdD0yyF",
+            "mangledName": "$s14VisxSwiftUISDK0A4ViewV06removea2AdD0yyF",
+            "moduleName": "VisxSwiftUISDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onEvent",
+            "printedName": "onEvent(action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VisxView",
+                "printedName": "VisxSwiftUISDK.VisxView",
+                "usr": "s:14VisxSwiftUISDK0A4ViewV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VisxSwiftUISDK.VisxEvents) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisxEvents",
+                    "printedName": "VisxSwiftUISDK.VisxEvents",
+                    "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14VisxSwiftUISDK0A4ViewV7onEvent6actionACyAA0A6EventsOc_tF",
+            "mangledName": "$s14VisxSwiftUISDK0A4ViewV7onEvent6actionACyAA0A6EventsOc_tF",
+            "moduleName": "VisxSwiftUISDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14VisxSwiftUISDK0A4ViewV",
+        "mangledName": "$s14VisxSwiftUISDK0A4ViewV",
+        "moduleName": "VisxSwiftUISDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.ModifiedContent<VisxSwiftUISDK.BannerView, SwiftUI._FrameLayout>>>, SwiftUI._OffsetEffect>, SwiftUI._BackgroundModifier<SwiftUI.Color>>, SwiftUI._ClipEffect<SwiftUI.Rectangle>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.ModifiedContent<VisxSwiftUISDK.BannerView, SwiftUI._FrameLayout>>>, SwiftUI._OffsetEffect>, SwiftUI._BackgroundModifier<SwiftUI.Color>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModifiedContent",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.ModifiedContent<VisxSwiftUISDK.BannerView, SwiftUI._FrameLayout>>>, SwiftUI._OffsetEffect>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SubscriptionView",
+                                "printedName": "SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.ModifiedContent<VisxSwiftUISDK.BannerView, SwiftUI._FrameLayout>>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Publisher",
+                                    "printedName": "Foundation.NotificationCenter.Publisher",
+                                    "usr": "s:So20NSNotificationCenterC10FoundationE9PublisherV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "SubscriptionView",
+                                    "printedName": "SwiftUI.SubscriptionView<Foundation.NotificationCenter.Publisher, SwiftUI.ModifiedContent<VisxSwiftUISDK.BannerView, SwiftUI._FrameLayout>>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Publisher",
+                                        "printedName": "Foundation.NotificationCenter.Publisher",
+                                        "usr": "s:So20NSNotificationCenterC10FoundationE9PublisherV"
+                                      },
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "ModifiedContent",
+                                        "printedName": "SwiftUI.ModifiedContent<VisxSwiftUISDK.BannerView, SwiftUI._FrameLayout>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "BannerView",
+                                            "printedName": "VisxSwiftUISDK.BannerView",
+                                            "usr": "s:14VisxSwiftUISDK10BannerViewV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "_FrameLayout",
+                                            "printedName": "SwiftUI._FrameLayout",
+                                            "usr": "s:7SwiftUI12_FrameLayoutV"
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI15ModifiedContentV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI16SubscriptionViewV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI16SubscriptionViewV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_OffsetEffect",
+                                "printedName": "SwiftUI._OffsetEffect",
+                                "usr": "s:7SwiftUI13_OffsetEffectV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI15ModifiedContentV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_BackgroundModifier",
+                            "printedName": "SwiftUI._BackgroundModifier<SwiftUI.Color>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Color",
+                                "printedName": "SwiftUI.Color",
+                                "usr": "s:7SwiftUI5ColorV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI19_BackgroundModifierV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_ClipEffect",
+                        "printedName": "SwiftUI._ClipEffect<SwiftUI.Rectangle>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Rectangle",
+                            "printedName": "SwiftUI.Rectangle",
+                            "usr": "s:7SwiftUI9RectangleV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI11_ClipEffectV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VisxSDK",
+        "printedName": "VisxSDK",
+        "declKind": "Import",
+        "moduleName": "VisxSwiftUISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VisxSwiftUISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "VisxSwiftUISDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VisxInterstitial",
+        "printedName": "VisxInterstitial",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adUnitId:backgroundColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VisxInterstitial",
+                "printedName": "VisxSwiftUISDK.VisxInterstitial",
+                "usr": "s:14VisxSwiftUISDK0A12InterstitialC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Color?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14VisxSwiftUISDK0A12InterstitialC8adUnitId15backgroundColorACSS_0B2UI0I0VSgtcfc",
+            "mangledName": "$s14VisxSwiftUISDK0A12InterstitialC8adUnitId15backgroundColorACSS_0B2UI0I0VSgtcfc",
+            "moduleName": "VisxSwiftUISDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAd",
+            "printedName": "loadAd(withCustomTargetingParameters:event:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VisxSwiftUISDK.VisxEvents) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VisxEvents",
+                    "printedName": "VisxSwiftUISDK.VisxEvents",
+                    "usr": "s:14VisxSwiftUISDK0A6EventsO"
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14VisxSwiftUISDK0A12InterstitialC6loadAd29withCustomTargetingParameters5eventySDyS2SGSg_yAA0A6EventsOctF",
+            "mangledName": "$s14VisxSwiftUISDK0A12InterstitialC6loadAd29withCustomTargetingParameters5eventySDyS2SGSg_yAA0A6EventsOctF",
+            "moduleName": "VisxSwiftUISDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14VisxSwiftUISDK0A12InterstitialC6showAdyyF",
+            "mangledName": "$s14VisxSwiftUISDK0A12InterstitialC6showAdyyF",
+            "moduleName": "VisxSwiftUISDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14VisxSwiftUISDK0A12InterstitialC",
+        "mangledName": "$s14VisxSwiftUISDK0A12InterstitialC",
+        "moduleName": "VisxSwiftUISDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/BannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 613,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/BannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1327,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/BannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3594,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/BannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3599,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/BannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 2379,
+      "length": 11,
+      "value": "\"VisxSwiftUISDK.Coordinator\""
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/BannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 6115,
+      "length": 28,
+      "value": "\"VisxSizeChangeNotification\""
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/BannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 6190,
+      "length": 23,
+      "value": "\"VisxEventNotification\""
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/VisxInterstitialManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 317,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/VisxInterstitialManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1242,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/VisxInterstitialManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1465,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/VisxInterstitialManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1918,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/VisxInterstitialManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2069,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/VisxInterstitialManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2915,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/VisxInterstitialManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2926,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/VisxInterstitialManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2941,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/VisxInterstitialManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2962,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/VisxView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 730,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/VisxView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2277,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/VisxView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2288,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/VisxView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3158,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/VisxInterstitial.swift",
+      "kind": "BooleanLiteral",
+      "offset": 439,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/VisxInterstitial.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1561,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/work\/Desktop\/VisxSwiftUISDK\/VisxSwiftUISDK\/VisxInterstitial.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1568,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
